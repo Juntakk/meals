@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import "package:mealapp/models/meal.dart";
+import 'package:mealapp/providers/filters_provider.dart';
 import 'package:mealapp/screens/meal_details.dart';
 import 'package:mealapp/widgets/meal_item.dart';
 
-class MealScreen extends StatelessWidget {
+class MealScreen extends ConsumerWidget {
   const MealScreen({
     super.key,
     required this.title,
@@ -24,18 +26,20 @@ class MealScreen extends StatelessWidget {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final filteredMeals = ref.watch(filteredMealsProvider);
+
     Widget content = ListView.builder(
-      itemCount: meals.length,
+      itemCount: filteredMeals.length,
       itemBuilder: (ctx, index) => MealItem(
-        meal: meals[index],
+        meal: filteredMeals[index],
         onSelectMeal: (meal) {
           selectMeal(context, meal);
         },
       ),
     );
 
-    if (meals.isEmpty) {
+    if (filteredMeals.isEmpty) {
       content = Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
