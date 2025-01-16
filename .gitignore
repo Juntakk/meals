@@ -41,3 +41,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+pubspec.yaml
+analysis_options.yaml
+pubspec.lock
+.metadata
+windows
+web
+macos 
+linux
+ios
+android 
+.vscode/
