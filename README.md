@@ -26,7 +26,7 @@
 <table>
   <tr>
     <td>
-      <img src="lib/screenshots/meals1.png" alt="Main View" width="555">
+      <img src="lib/screenshots/meals1.png" alt="Main View" width="222">
     </td>
     <td>
       <b>Main View:</b>
@@ -37,7 +37,7 @@
   </tr>
   <tr>
     <td>
-      <img src="lib/screenshots/meals2.png" alt="Meals List View" width="555">
+      <img src="lib/screenshots/meals2.png" alt="Meals List View" width="222">
     </td>
     <td>
       <b>Meals List View:</b>
@@ -48,7 +48,7 @@
   </tr>
   <tr>
     <td>
-      <img src="lib/screenshots/meals3.png" alt="Category Detail View" width="555">
+      <img src="lib/screenshots/meals3.png" alt="Category Detail View" width="222">
     </td>
     <td>
       <b>Category Detail View:</b>
@@ -59,7 +59,7 @@
   </tr>
   <tr>
     <td>
-      <img src="lib/screenshots/meals4.png" alt="Recipe Details Page" width="555">
+      <img src="lib/screenshots/meals4.png" alt="Recipe Details Page" width="222">
     </td>
     <td>
       <b>Recipe Details Page:</b>
@@ -70,7 +70,7 @@
   </tr>
   <tr>
     <td>
-      <img src="lib/screenshots/meals5.png" alt="Drawer with Filters" width="555">
+      <img src="lib/screenshots/meals5.png" alt="Drawer with Filters" width="222">
     </td>
     <td>
       <b>Drawer with Filter Functionality:</b>
